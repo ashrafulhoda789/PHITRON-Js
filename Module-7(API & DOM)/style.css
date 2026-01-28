@@ -15,3 +15,17 @@ input{
     padding: 10px;
     width: 40%;
 }
+
+.user-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.user{
+    padding: 20px;
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}

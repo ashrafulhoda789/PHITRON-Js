@@ -1,15 +1,15 @@
 .main-container{
     display: flex;
     justify-content: space-around;
-    align-items: start;
+    
 }
 
 .cart-container{
     width: 50%;
+    max-height: max-content;
     box-shadow: 4px 4px 8px gray;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
-   
 }
 
 .product-container{
@@ -18,7 +18,7 @@
     flex-wrap: wrap;
     gap: 15px;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -30,4 +30,10 @@
 
 .card-img{
     width: 25%;
+}
+
+.cart-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

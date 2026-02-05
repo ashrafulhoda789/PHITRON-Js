@@ -64,7 +64,7 @@ function searchItem(){
         
     }
 }
-
+// Clickable card
 function showItem(card){
     // alert("clicked");
     let container = document.getElementById("show-card");

@@ -31,6 +31,15 @@
     text-decoration: none;
 } */
 
+.show-card{
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid gray; */
+}
+
 .input-container{
     max-width: 1200px;
     margin:40px auto;
@@ -52,11 +61,13 @@
     gap: 30px;
 }
 
-.card-container .card{
+.card{
+    max-width: 400px;
     border: 1px solid gray;
     border-radius: 10px;
     text-align: center;
+    padding: 20px;
 }
-.card-container .card img{
+.card img{
     width: 100%;
 }

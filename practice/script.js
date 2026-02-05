@@ -64,3 +64,12 @@ function searchItem(){
         
     }
 }
+
+function showItem(card){
+    // alert("clicked");
+    let container = document.getElementById("show-card");
+    container.innerHTML = "";
+
+    let cloneCard = card.cloneNode(true);
+    container.appendChild(cloneCard);
+}
